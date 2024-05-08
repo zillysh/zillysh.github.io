@@ -38,6 +38,11 @@ header{
     margin-top: 20px;
 }
 
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
 nav{
     display: flex;
     flex-direction: row;
@@ -47,6 +52,7 @@ nav{
 nav li {
     margin-bottom: 2px; 
 }
+
 
 .project-container{
     display: flex;
@@ -71,6 +77,14 @@ h2 {
 
 .project-links {
     margin-top: 10px;
+}
+
+.project-links:hover {
+    text-decoration: underline;
+}
+
+.info-links li a {
+    text-decoration: underline; 
 }
 
 .all-projects{
@@ -114,5 +128,12 @@ h3 {
     gap: 60px;
 }
 
+.info-links li a {
+    text-decoration: none; 
+}
+
+.info-links li a:hover {
+    text-decoration: underline; 
+}
 
 }
